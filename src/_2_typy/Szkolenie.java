@@ -8,6 +8,7 @@ public class Szkolenie {
     int liczbaUczestnikow;
     String nazwa;
     LocalDate data;
+    
     // 1. tworzenie nowego obiektu
 //budowa konstruktora: [public/ private] [nazwa] [(lista parametrow)]
     // konstruktor bezparametryczny

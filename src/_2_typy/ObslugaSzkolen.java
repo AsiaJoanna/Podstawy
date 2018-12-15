@@ -20,6 +20,8 @@ public class ObslugaSzkolen {
 
         szkoleniePython.wyswietl();
 
+
+
         /*
         Szkolenie szkoleniePython = new Szkolenie();
         szkoleniePython.nazwa = "Szkolenie Python";
