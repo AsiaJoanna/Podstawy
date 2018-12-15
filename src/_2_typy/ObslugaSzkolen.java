@@ -6,25 +6,19 @@ import java.time.Month;
 
 public class ObslugaSzkolen {
     public static void main(String[] args) {
-        Szkolenie szkolenieJava = new Szkolenie("Skolenie Java", 10, 1000, LocalDate.of(2018, Month.DECEMBER, 15));
+        Szkolenie szkolenieJava = new Szkolenie(
+                "Skolenie Java", 10, 1000,
+                LocalDate.of(2018, Month.DECEMBER, 15));
 
 
-        System.out.println("Nazwa: " + szkolenieJava.nazwa);
-        System.out.print("Cena: ");
-        System.out.printf("%.2f zl \n", szkolenieJava.cena);
-
-        System.out.println("Liczba uczestnikow: " + szkolenieJava.liczbaUczestnikow);
-        System.out.println("Data: " + szkolenieJava.data);
+       szkolenieJava.wyswietl();
 
 
-        Szkolenie szkoleniePython = new Szkolenie("Szkolenie Python", 15, 1500, LocalDate.of(2019, Month.JANUARY, 21));
-        System.out.println("Nazwa: " + szkoleniePython.nazwa);
-        System.out.print("Cena: ");
-        System.out.printf("%.2f zl \n", szkoleniePython.cena);
+        Szkolenie szkoleniePython = new Szkolenie(
+                "Szkolenie Python", 15, 1500,
+                LocalDate.of(2019, Month.JANUARY, 21));
 
-        System.out.println("Liczba uczestnikow: " + szkoleniePython.liczbaUczestnikow);
-        System.out.println("Data: " + szkoleniePython.data);
-
+        szkoleniePython.wyswietl();
 
         /*
         Szkolenie szkoleniePython = new Szkolenie();
