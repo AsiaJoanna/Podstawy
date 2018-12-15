@@ -13,7 +13,7 @@ public class TypyObiektowe {
         String imie = wejscie.nextLine();
 
         int iloscZnakow = imie.length();
-        Boolean ostatniaLitera = imie.endsWith("a") || imie.endsWith("A") ;
+        boolean ostatniaLitera = imie.endsWith("a") || imie.endsWith("A") ;
         if (ostatniaLitera && !imie.equalsIgnoreCase ("Kuba")) {
             System.out.println(" Imie damskie ");
         }
@@ -27,7 +27,7 @@ public class TypyObiektowe {
             System.out.println( "Krotkie slowo");
 
         }else {
-            System.out.println("Dlugie slowo");
+           System.out.println("Dlugie slowo");
         }
 
 

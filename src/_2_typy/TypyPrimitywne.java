@@ -1,6 +1,6 @@
 package _2_typy;
 
-public class Typy_primitywne {
+public class TypyPrimitywne {
 
     public static void main(String[] args) {
         int iloscUczestnikow = 8;
