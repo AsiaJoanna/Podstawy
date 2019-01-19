@@ -25,6 +25,9 @@ static void metoda0() {
         System.out.println();
 
         System.out.println(" Koniec programu");
+
+        int wynik = powtorz(" Lubie Jave", 3);
+        System.out.println( " Wynik powtarzania " + wynik);
     }
 
     static void metoda2(String napis) {
