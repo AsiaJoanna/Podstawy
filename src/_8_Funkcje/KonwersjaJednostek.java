@@ -3,29 +3,25 @@ package _8_Funkcje;
 import java.util.Scanner;
 
 public class KonwersjaJednostek {
- public static final double mileNaKm (double)
-{
-    return mile * 1.6
 
-}
 
-       /*  public static void main(String[] args) {
-        Scanner wejscie = new Scanner(System.in);
+        public static final double MILA = 1.609344;
 
-        System.out.println(" Podaj odleglosc w milach: ");
-        double mile = wejscie.nextDouble();
-        double km;
-        km = mile / 0.62137;
-        System.out.println(" Odleglosc w kilometrach: " + km);
+        public static double mileNaKm(double mile) {
+            return mile * MILA;
+        }
 
-        System.out.println(" Podaj odleglosc w kilometrach: ");
-        double kilometry = wejscie.nextDouble();
-        double m;
-        m =  1.609344 * kilometry;
+        public static double kmNaMile(double km) {
+            return km / MILA;
+        }
 
-        System.out.println(" Odleglosc w milach: " + m);
-*/
+        public static double c2f(double cel) {
+            return 32.0 + (9.0 / 5.0) * cel;
+        }
 
+        public static double f2c(double far) {
+            return (5.0 / 9.0) * (far - 32.0);
+        }
     }
 
-}
+
