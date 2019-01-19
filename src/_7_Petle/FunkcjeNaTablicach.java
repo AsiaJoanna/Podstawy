@@ -11,6 +11,28 @@ public class FunkcjeNaTablicach {
         return wynik;
     }
 
+/*
+    static void suma_inaczej(int[] tablica) {
+        int wynik = 0;
+
+        for (int i = 0; i < tablica.length; i++) {
+            wynik += tablica[i];
+        }
+    }
+*/
+    static void suma_parzystych (int[] tablica){
+        int sumaParz = 0;
+
+        for (int i=0; i < tablica.length; i++) {
+            if ( i % 2 == 0){
+              sumaParz += tablica[i];
+
+            }
+
+        }
+
+    }
+
     // dla wygody maina testujacego umieszczam w tym samm pliku
 
     public static void main(String[] args) {
@@ -19,7 +41,6 @@ public class FunkcjeNaTablicach {
 
         System.out.println(" suma a: " + suma(a)); //90
         System.out.println(" suma b: " + suma(b)); //5
-
 
 
 
