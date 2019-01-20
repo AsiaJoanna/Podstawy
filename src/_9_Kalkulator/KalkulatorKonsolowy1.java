@@ -18,6 +18,7 @@ public class KalkulatorKonsolowy1 {
                 String operacja = wejscie.next();
                 double arg2 = wejscie.nextDouble();
 
+               // private static double oblicz (double arg1, double arg2, String operacja);
                 double wynik;
                 switch(operacja) {
                     case "+":

@@ -13,5 +13,6 @@ public class Okno2 {
         frame.setVisible(true);
         JLabel label = new JLabel("Hello World!!!");
         frame.add(label);
+        frame.setVisible(true);
     }
 }
